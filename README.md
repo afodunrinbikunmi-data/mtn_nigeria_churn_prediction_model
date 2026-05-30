@@ -33,7 +33,7 @@ With a 29.16% churn rate and ₦58M in lost revenue, MTN Nigeria needs to identi
 | **High_Value** | Binary (engineered) |
 | **Device_Encoded** | Categorical (encoded) |
 | **Gender_Encoded** | Categorical (encoded) |
-| **Plan_Encodedv | Categorical (encoded) |
+| **Plan_Encoded** | Categorical (encoded) |
 
 ## Models Trained
 
@@ -113,6 +113,8 @@ With a 29.16% churn rate and ₦58M in lost revenue, MTN Nigeria needs to identi
 | **9** | **Device Type** | 0.0227 |
 | **10** | **Gender** | 0.0226 |
 | **11** | **High Value** | 0.0096 |
+
+[Click here to view the full interactive Python notebook on Google Colab](https://colab.research.google.com/drive/1jZAHl3gxo8O_vh0ZU4QxvM8vsfwbTwWC?usp=sharing) - to see the step-by-step EDA and machine learning model training
 
 ## Key Findings
 - **Accuracy is misleading** — Logistic Regression's 72.31% accuracy detected 0 churned customers
