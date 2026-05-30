@@ -3,7 +3,7 @@ Machine Learning for Telecom Customer Retention | Python | Scikit-Learn
 
 ## Project Summary
 A machine learning project built on top of the MTN Nigeria Customer Churn Analysis dataset. Three classification models — Logistic
-Regression, Decision Tree, and Random Forest — were trained and evaluated to predict which customers are most likely to churn,enabling proactive retention interventions.
+Regression, Decision Tree, and Random Forest were trained and evaluated to predict which customers are most likely to churn,enabling proactive retention interventions.
 
 **Key finding: All three models expose a class imbalance problem that limits churn recall, the most important metric for retention. Random Forest performs best with 72.82% accuracy and 50% precision on churned customers but misses 89% of actual churners.**
 
@@ -69,7 +69,7 @@ With a 29.16% churn rate and ₦58M in lost revenue, MTN Nigeria needs to identi
 | **Actual Active** | 121 | 21 |
 | **Actual Churned** | 42 | 11 |
 
-**Verdict:** Lower accuracy but more useful — detects some churn. Customer Tenure dominates feature importance at 48%.
+**Verdict:** Lower accuracy but more useful, detects some churn. Customer Tenure dominates feature importance at 48%.
 
 ### Model 3 — Random Forest (n_estimators=100, class_weight='balanced')
 | Metric | Active (0) | Churned (1) |
@@ -124,7 +124,7 @@ With a 29.16% churn rate and ₦58M in lost revenue, MTN Nigeria needs to identi
 - **All models need improvement** — SMOTE and XGBoost are recommended next steps
 
 ## Limitations
-The dataset contains only 974 records which limits model robustness and generalisation. The class imbalance of 70/30 causes all three models to underperform on the minority churned class — the most important class for the business use case. The dataset is synthetically generated and results should not be applied to real MTN Nigeria business decisions without validation on live customer data.
+The dataset contains only 974 records which limits model robustness and generalisation. The class imbalance of 70/30 causes all three models to underperform on the minority churned class, the most important class for the business use case. The dataset is synthetically generated and results should not be applied to real MTN Nigeria business decisions without validation on live customer data.
 
 ## Next Steps
 - **Implement SMOTE to balance training data**
