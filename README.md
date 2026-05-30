@@ -149,7 +149,7 @@ The dataset contains only 974 records which limits model robustness and generali
 ## About me
 Afodunrinbi Samad Akinkunmi
 
-I am a Certified Data Analyst with a strong passion for transforming raw data into meaningful insightsand building predictive meodeling that support informed decision-making. My work focuses on exploring datasets, identifying patterns, and communicating findings in a clear and impactful way. I enjoy approaching problems analytically, breaking them down into structured steps, and uncovering the story behind the data. Beyond data analysis, I am actively expanding towards becoming a Data Scientist, with an interest in building predictive modeling and advanced analytics.
+I am a Certified Data Analyst with a strong passion for transforming raw data into meaningful insights and building predictive meodeling that support informed decision-making. My work focuses on exploring datasets, identifying patterns, and communicating findings in a clear and impactful way. I enjoy approaching problems analytically, breaking them down into structured steps, and uncovering the story behind the data. Beyond data analysis, I am actively expanding towards becoming a Data Scientist, with an interest in building predictive modeling and advanced analytics.
 
 Data Analyst| ML | Excel | Power BI | Python | SQL | Figma
 
