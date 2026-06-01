@@ -8,7 +8,7 @@ Regression, Decision Tree, and Random Forest were trained and evaluated to predi
 **Key finding: All three models expose a class imbalance problem that limits churn recall, the most important metric for retention. Random Forest performs best with 72.82% accuracy and 50% precision on churned customers but misses 89% of actual churners.**
 
 ## Problem Statement
-With a 29.16% churn rate and ₦58M in lost revenue, MTN Nigeria needs to identify at-risk customers before they churn — not after. This project builds and evaluates churn prediction models that assign a probability score to every active customer, enabling targeted retention campaigns based on data rather than guesswork.
+With a 29.16% churn rate and ₦58M in lost revenue, MTN Nigeria needs to identify at risk customers before they churn not after. This project builds and evaluates churn prediction models that assign a probability score to every active customer, enabling targeted retention campaigns based on data rather than guesswork.
 
 ## Dataset Overview
 | Field | Detail |
